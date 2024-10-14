@@ -4,8 +4,8 @@ new Swiper('.swiper',
 			nextEl: '.swiper-button-next',
 			prevEl: '.swiper-button-prev',
 		},
-
-		slidesPerView: 5,
+		slidesPerView: 'auto',
+		centerInsufficientSlides: true,
 		spaceBetween: 10,
 		freeMode: true,
 	});
